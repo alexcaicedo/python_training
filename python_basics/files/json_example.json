@@ -1,0 +1,11 @@
+{
+    "name": "Alex",
+    "country": "Colombia",
+    "city": "Neiva",
+    "skills": [
+        "Python",
+        "Docker",
+        "Power BI",
+        "SQL"
+    ]
+}
