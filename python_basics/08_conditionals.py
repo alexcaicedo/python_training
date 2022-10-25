@@ -44,3 +44,33 @@ elif a < 0:
     print("a is a negative number")
 else:
     print("a is zero")
+
+# Short Hand
+a = 3
+print("a is positive") if a > 0 else print("a is negative")  # first condition met, 'A is positive' will be printed
+
+# Nested conditions
+# if condition:
+#     this part of the code runs for TRUE conditions
+#     if condition:
+#         this part of the code runs for TRUE conditions in the elif statement
+a = 0
+if a > 0:
+    if a % 2 == 0:
+        print("a is positive and even integer")
+    else:
+        print("a is a positive integer")
+elif a == 0:
+    print("a is zero")
+else:
+    print("a is a negative integer")
+
+# If conditons and logical operators
+# if condition or condition:
+#     code
+user = "Alex"
+access_level = 3
+if user == "admin" or access_level >= 4:
+    print("Access granted!")
+else:
+    print("Access denied :'(")
