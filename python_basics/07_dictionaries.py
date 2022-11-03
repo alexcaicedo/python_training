@@ -144,3 +144,14 @@ dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+
+# Sorting dictionaries
+dct = {"E": 6, "F": 3, "A": 5, "C": 1, "B": 2, "D": 4}
+sorted(dct.items()) # Sorts by key
+# Output: [('A', 5), ('B', 2), ('C', 1), ('D', 4), ('E', 6), ('F', 3)]
+
+sorted(dct.items(), key=lambda x: x[1]) # Sorts by value in ascending order
+# Output: [('C', 1), ('B', 2), ('F', 3), ('D', 4), ('A', 5), ('E', 6)]
+
+sorted(dct.items(), key=lambda x: x[1], reverse=True) # Sorts by value in descending order
+# Output: [('E', 6), ('A', 5), ('D', 4), ('F', 3), ('B', 2), ('C', 1)]
