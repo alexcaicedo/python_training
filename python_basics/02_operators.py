@@ -79,6 +79,7 @@ gravity = 9.81
 weight = mass * gravity
 print(weight, 'N')
 
+# Comparing operators
 print(3 > 2)     # True, because 3 is greater than 2
 print(3 >= 2)    # True, because 3 is greater than 2
 print(3 < 2)     # False,  because 3 is greater than 2
@@ -94,14 +95,14 @@ print(len('milk') == len('meat'))      # True
 print(len('tomato') == len('potato'))  # True
 print(len('python') > len('dragon'))   # False
 
-# Boolean comparison
+# Boolean comparisson
 print('True == True: ', True == True)
 print('True == False: ', True == False)
 print('False == False:', False == False)
 print('True and True: ', True and True)
 print('True or False:', True or False)
 
-# Another way comparison 
+# Another way comparisson 
 print('1 is 1', 1 is 1)                   # True - because the data values are the same
 print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
 print('A in Alexander', 'A' in 'Alexander') # True - A found in the string

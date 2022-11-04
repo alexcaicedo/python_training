@@ -76,7 +76,7 @@ pto = language[0:6:2] #
 print(pto) # pto
 
 # Escape sequence
-print('I hope every one enjoying the python challenge.\nDo you ?') # line break
+print('I hope everyone is enjoying the python challenge.\nAre you ?') # line break
 print('Days\tTopics\tExercises')
 print('Day 1\t3\t5')
 print('Day 2\t3\t5')

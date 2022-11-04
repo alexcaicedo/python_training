@@ -40,7 +40,7 @@ print(x)
 print(y)
 print(z)
 
-# Getting using input
+# Getting user input
 
 # first_name = input("What's your name?: ")
 # age = input("What's your age?: ")
