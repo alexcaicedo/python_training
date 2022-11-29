@@ -211,7 +211,7 @@ print(generate_groups('Team-1','Alex','Brook','David','Eyob'))
 # David
 # Eyob
 
-# Function as a Parameter of Another Function
+# Function as a Parameter of Another Function - High Order Functions
 def square_number(n):
     return n * n
 
