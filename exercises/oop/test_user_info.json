@@ -1,0 +1,23 @@
+{
+    "firstname": "Cristiano",
+    "lastname": "Ronaldo",
+    "incomes": {
+        "income_1": {"date": "15-05-2022", "amount": 2155, "description": "salary"},
+        "income_2": {"date": "14-06-2022", "amount": 2200, "description": "salary"},
+        "income_3": {"date": "15-07-2022", "amount": 2150, "description": "salary"},
+        "income_4": {"date": "15-08-2022", "amount": 2160, "description": "salary"},
+        "income_5": {"date": "16-09-2022", "amount": 2195, "description": "salary"}
+    },
+    "expenses": {
+        "expense_1": {"date": "15-05-2022", "amount": 200, "description": "lease"},
+        "expense_2": {"date": "16-05-2022", "amount": 150, "description": "others"},
+        "expense_3": {"date": "16-06-2022", "amount": 200, "description": "lease"},
+        "expense_4": {"date": "16-06-2022", "amount": 155, "description": "others"},
+        "expense_5": {"date": "15-07-2022", "amount": 200, "description": "lease"},
+        "expense_6": {"date": "16-07-2022", "amount": 160, "description": "others"},
+        "expense_7": {"date": "16-08-2022", "amount": 210, "description": "lease"},
+        "expense_8": {"date": "17-08-2022", "amount": 150, "description": "others"},
+        "expense_9": {"date": "15-09-2022", "amount": 205, "description": "lease"},
+        "expense_10": {"date": "17-09-2022", "amount": 160, "description": "others"}
+    }
+}

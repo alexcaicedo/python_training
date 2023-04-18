@@ -1,0 +1,13 @@
+*** Bank Account Statement ***
+
+Firstname: Cristiano
+Lastname: Ronaldo
+Total Income: $10860
+Total Expenses: ($1790)
+Balance: $9070
+
+* Recent movements *
+Income: $200
+Balance: $9270
+Expense: ($100)
+Balance: $9170
