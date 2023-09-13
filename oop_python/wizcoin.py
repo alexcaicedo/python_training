@@ -5,7 +5,7 @@ class WizCoin:
         self.galleons = galleons
         self.sickles = sickles
         self.knuts = knuts
-        # NOTE: __init__() methods NEVER have a return statement.
+        # NOTE: __init__() methods NEVER has a return statement.
     
     def value(self):
         """The value (in knuts) of all the coint in this WizCoin object."""
